@@ -70,7 +70,7 @@ I can formulate two statements here:
 ---
 
 ### 1.3 Future direction
-**Code:** `explore_Physionet_MI.ipynb` (to get the z-scored data), `decode_subj_1_rest_vs_task_comp_rnn_retrained_model.ipynb`
+**Code:** `explore_Physionet_MI.ipynb` (to get the z-scored data), `train_EEG_rbm.ipynb` (to retrain the RNN on the new segement), `decode_subj_1_rest_vs_task_comp_rnn_retrained_model.ipynb`
 
 In an attempt to corroborate my previous interpretation, I decided to retrain the low-rank RNN on data containing both rest and motor tasks (2-minute segment: concatenation of 1min run_3 and 1min run_5). Then I tried the decoding task again, but I got similar results (around 0.7 accuracy with real data and 0.5 with generated data).
 
@@ -93,7 +93,7 @@ The elements I have at this stage cannot sufficiently support my previous intuit
 ---
 
 ## 2. Apply the full pipeline to a new EEG dataset (Advanced)
-**Code:** `explore_Forenzo2023.ipynb`, `decode_Forenzo2023_real_vs_gen.ipynb`
+**Code:** `explore_Forenzo2023.ipynb` (to get the z-scored data), `train_EEG_rbm.ipynb` (to train the RNN on the new data)`decode_Forenzo2023_real_vs_gen.ipynb`
 
 In order to find a suitable database, I browsed the dataset summary page of the MOABB website for those having Motor imagery/execution tasks, containing 64 EEG electrodes, and preferably with a sampling frequency $Fs \ge 160Hz$.
 
