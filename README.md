@@ -7,7 +7,7 @@ To replicate the environment used for this analysis, run the following commands 
 conda env create -f smc_rnn_env_postdoc_test.yml
 
 # Activate the environment
-conda activate smc_rnn_env
+conda activate postdoc_test_env
 ```
 
 # Project Report: Evaluating Low-Rank RNNs on EEG Data
