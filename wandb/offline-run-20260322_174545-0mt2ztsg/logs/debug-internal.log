@@ -1,0 +1,15 @@
+{"time":"2026-03-22T17:45:45.4593+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/remy.benmessaoud/Documents/python_projects/smc_rnns-main/wandb/offline-run-20260322_174545-0mt2ztsg/logs/debug-core.log"}
+{"time":"2026-03-22T17:45:45.571317+01:00","level":"INFO","msg":"created new stream","id":"0mt2ztsg"}
+{"time":"2026-03-22T17:45:45.571508+01:00","level":"INFO","msg":"stream: started","id":"0mt2ztsg"}
+{"time":"2026-03-22T17:45:45.571647+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"0mt2ztsg"}
+{"time":"2026-03-22T17:45:45.571723+01:00","level":"INFO","msg":"handler: started","stream_id":"0mt2ztsg"}
+{"time":"2026-03-22T17:45:45.571763+01:00","level":"INFO","msg":"sender: started","stream_id":"0mt2ztsg"}
+{"time":"2026-03-22T17:45:45.578657+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2026-03-22T19:35:50.088416+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2026-03-22T19:35:50.095012+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2026-03-22T19:35:50.098734+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-03-22T19:35:50.113716+01:00","level":"INFO","msg":"stream: closing","id":"0mt2ztsg"}
+{"time":"2026-03-22T19:35:50.113743+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0mt2ztsg"}
+{"time":"2026-03-22T19:35:50.11387+01:00","level":"INFO","msg":"sender: closed","stream_id":"0mt2ztsg"}
+{"time":"2026-03-22T19:35:50.11388+01:00","level":"INFO","msg":"handler: closed","stream_id":"0mt2ztsg"}
+{"time":"2026-03-22T19:35:50.113892+01:00","level":"INFO","msg":"stream: closed","id":"0mt2ztsg"}

@@ -1,0 +1,39 @@
+{
+  "os": "macOS-26.3-arm64-arm-64bit",
+  "python": "CPython 3.10.16",
+  "startedAt": "2026-03-26T14:35:45.140162Z",
+  "program": "/Users/remy.benmessaoud/Documents/python_projects/smc_rnns-main/rbm_stuff/train_EEG_rbm_Forenzo.py",
+  "codePath": "rbm_stuff/train_EEG_rbm_Forenzo.py",
+  "root": "/Users/remy.benmessaoud/Documents/python_projects/smc_rnns-main",
+  "host": "mac.home",
+  "executable": "/opt/miniconda3/envs/smc_rnn_env/bin/python",
+  "codePathLocal": "rbm_stuff/train_EEG_rbm_Forenzo.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "218511327232"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "218511327232"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M2",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 8,
+    "swapTotalBytes": "10737418240",
+    "ramTotalBytes": "8589934592"
+  }
+}
