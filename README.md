@@ -2,12 +2,12 @@ This repo uses code from [https://github.com/mackelab/smc_rnns/tree/main](https:
 ## Setup
 
 To replicate the environment used for this analysis, run the following commands in your terminal:
-
+Create the environment from the provided YAML file
 ```bash
-# Create the environment from the provided YAML file
 conda env create -f smc_rnn_env_postdoc_test.yml
-
-# Activate the environment
+```
+Activate the environment
+```bash
 conda activate postdoc_test_env
 ```
 
