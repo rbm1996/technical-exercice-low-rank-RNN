@@ -10,7 +10,7 @@ Activate the environment
 ```bash
 conda activate postdoc_test_env
 ```
-
+All the code is in rmb_stuff/
 # Project Report: Evaluating Low-Rank RNNs on EEG Data
 
 ## 1. Evaluating Low-Rank RNN 
@@ -18,7 +18,8 @@ conda activate postdoc_test_env
 **Reference paper with codebase:** Pals et al., *Inferring Stochastic Low-Rank Recurrent Neural Networks from Neural Data*, 2024.
 
 ### 1.1 Replicate Figure 4 (Easy)
-The code authors used to generate Figure 4 can be found at `rbm_stuff/Fig_4_plot_EEG_rbm.ipynb`. 
+**Code:** `Fig_4_plot_EEG_rbm.ipynb`
+It is almost identical to `generate_figures/Fig_4_plot_EEG.ipynb` from the original repo. 
 
 It is up and running. However, it is a bit unclear whether I was expected to fit the model on my machine and use new weights (especially since in the next section it is said “Once the RNN is fitted and generating data”). I did not refit the model; instead, I used the weights provided by the authors. 
 
