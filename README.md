@@ -1,3 +1,4 @@
+This repo uses code from [https://github.com/mackelab/smc_rnns/tree/main](https://github.com/mackelab/smc_rnns/tree/main)
 ## Setup
 
 To replicate the environment used for this analysis, run the following commands in your terminal:
